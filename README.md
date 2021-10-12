@@ -9,30 +9,30 @@ We're glad that you're considering a position here at COYO. Thank you for having
 ### Deliverable : **COYO Demo Project**
 We need you to submit an Android Demo Project to be evaluated by our software engineers.
 
-The COYO demo project:
+#### The COYO demo project:
 - The app architecture, project, code organization, file structure, and comments will be evaluated.
 - Send your code challenge in a .zip file or url of your git repo by e-mail to your respective recruiter.
 - We need you to create an app that allows our users from a test social network to see posts and comments for relevant posts
 
-The app consists of two screens:
+#### The app consists of two screens:
 1. Posts list Screen
 2. The post detail Screen
 
 We won't provide any UI specifications, this is totally up to you. Free the designer soul inside you. ;)
 
-Posts List Screen
+#### Posts List Screen:
 - A post has a title.
 - When a post is tapped, the user should be redirected to the detail screen.
 - The user should be able to refresh the content.
 
 **Note**: Our backend server is weak, 10 items per response should be enough to not melt it down.
 
-Post Detail Screen
+#### Post Detail Screen
 - For the post detail, we expect to see its author, description, number of comments, and the comments.
 - Press back should lead to posts list screen.
 
 
-API
+**API**
 Here is the [API docs](http://jsonplaceholder.typicode.com/), you should use the following endpoints:
 
 - `/posts`
@@ -54,7 +54,7 @@ Hint: We expect you to use the **GET** method only.
 - [Compose](https://developer.android.com/jetpack/getting-started)
 
 
-Notes: 
+**Notes:** 
 - This assessment must be delivered within 2 days.
 - We like code that is simple, but simple is different from easy.
 - Keep in mind the SOLID principles when doing the project.
